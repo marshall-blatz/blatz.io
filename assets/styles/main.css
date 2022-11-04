@@ -1,27 +1,59 @@
-#container {
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1919;
+    color: #edf0f1
 }
 
-#navbar {
-
+li, a, button {
+    font-family: filson-soft, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
 }
 
-#header {
-
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
 }
 
-#aboutme {
-
+.logo {
+    cursor: pointer;
+    margin-right: auto;
 }
 
-#education {
-
+.nav-links {
+    list-style: none;
 }
 
-#projects {
-
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
 }
 
-#footer {
-    
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #a058bf
+}
+
+.home {
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: filson-soft, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100px;
 }
