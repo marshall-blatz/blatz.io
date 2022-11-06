@@ -6,6 +6,7 @@
     --blue: #5eaaff;
     --purple: #a155ff;
     --green: #2ee5af;
+    --orange: #fcb72f;
   }
 
 html {
@@ -195,21 +196,20 @@ h1 {
     align-items: center;
     justify-content: center;
     position: relative;
-}
-
-.slide img {
-    width: 100%;
-    height: 90%;
+    flex-direction: column;
 }
 
 .slider {
     overflow: hidden;
     position: relative;
+    height: 80%
+    
 }
 
 .slides {
     width: 500%;
     display: flex;
+    position: relative;
 }
 
 .slides input{
@@ -219,19 +219,34 @@ h1 {
 .slide{
     width:20%;
     transition: 2s;
+    font-family: filson-soft, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    height: 100%;
+    text-align: center;
+}
+
+.slide-pic {
+    width: 80%;
+}
+
+.slide p {
+    color: var(--green);
+    bottom: 0;
 }
 
 .navigation-manual {
-    position: absolute;
+
     width: 100%;
     display: flex;
     justify-content: center;
-    bottom: 40px;
+    
 }
 
 .manual-btn{
     border: 2px solid var(--green);
     padding: 5px;
+    margin-top: 10px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
@@ -274,6 +289,22 @@ h1 {
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.green {
+    color: var(--green);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.blue {
+    color: var(--blue);
 }
 
 /* education section */

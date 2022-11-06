@@ -19,12 +19,12 @@
     </script>
     <div id="container">
         <nav id="navbar" class="navbar">
-            <img class="logo" src="assets/art/logo.png" height="50px">
+            <a class="logo" href="#"><img src="assets/art/logo.png" height="50px"></a>
             <nav>
                 <ul class="nav-links">
-                    <li><a class="about-me-link" href="#about-me">about me</a></li>
-                    <li><a class="education-link" href="#education">education</a></li>
-                    <li><a class="projects-link" href="#projects">projects</a></li>
+                    <li><a class="about-me-link link" href="#about-me">about me</a></li>
+                    <li><a class="education-link link" href="#education">education</a></li>
+                    <li><a class="projects-link link" href="#projects">projects</a></li>
                 </ul>
             </nav>
         </nav>
@@ -41,29 +41,28 @@
                     <div class="about-me-box-content">
                         <p>
                             <br>
-                            package aboutMe;<br>
+                            <span class="purple">package</span> <span class="green">aboutMe</span>;<br>
                             <br>
-                            public class Marshall extends Goober {<br>
-                            &emsp;&emsp;public Marshall() {<br>
-                            &emsp;&emsp;&emsp;&emsp;String fullName = “Marshall Blatz”;<br>
-                            &emsp;&emsp;&emsp;&emsp;String homeTown = “Iowa City, IA”;<br>
-                            &emsp;&emsp;&emsp;&emsp;String school = “University of Iowa”;<br>
-                            &emsp;&emsp;&emsp;&emsp;int expGraduation = May 2023;<br>
-                            &emsp;&emsp;&emsp;&emsp;Resume resume = new Resume("pdf");<br>
-                            &emsp;&emsp;&emsp;&emsp;String[] hobbiesAndInterests = new String[] {<br>
-                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;“doodling”,<br>
-                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;“crosswords”,<br>
-                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;“basketball”,<br>
-                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;“football”,<br>
-                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"graphic design"<br>
+                            <span class="purple">public</span> <span class="blue">class</span> <span class="green">Marshall</span> <span class="purple">extends</span> <span class="green">Goober</span> {<br>
+                            &emsp;&emsp;<span class="purple">public</span> <span class="green">Marshall</span>() {<br>
+                            &emsp;&emsp;&emsp;&emsp;<span class="blue">String</span> fullName = <span class="orange">“Marshall Blatz”</span>;<br>
+                            &emsp;&emsp;&emsp;&emsp;<span class="blue">String</span> homeTown = <span class="orange">“Iowa City, IA”</span>;<br>
+                            &emsp;&emsp;&emsp;&emsp;<span class="blue">String</span> school = <span class="orange">“University of Iowa”</span>;<br>
+                            &emsp;&emsp;&emsp;&emsp;<span class="blue">int</span> expGraduation = <span class="orange">May 2023</span>;<br>
+                            &emsp;&emsp;&emsp;&emsp;<span class="blue">Resume</span> resume = <span class="purple">new</span> Resume(<span class="orange">"pdf"</span>);<br>
+                            &emsp;&emsp;&emsp;&emsp;<span class="blue">String[]</span> hobbiesAndInterests = <span class="purple">new</span> <span class="blue">String[]</span> {<br>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span class="orange">“doodling”</span>,<br>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span class="orange">“crosswords”</span>,<br>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span class="orange">“basketball”</span>,<br>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span class="orange">“football”</span>,<br>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span class="orange">"graphic design"</span><br>
                             &emsp;&emsp;&emsp;&emsp;}<br>
                             &emsp;&emsp;}<br>
-                            &emsp;&emsp;public static void contact() {<br>
-                            &emsp;&emsp;&emsp;&emsp;Email email = new Email(“marshall-blatz@uiowa.edu”);<br>
-                            &emsp;&emsp;&emsp;&emsp;String[] links = new String[] {<br>
-                            &emsp;&emsp;&emsp;&emsp;"LinkedIn",<br>
-                            &emsp;&emsp;&emsp;&emsp;"Github",<br>
-                            &emsp;&emsp;&emsp;&emsp;"Instagram"<br>
+                            &emsp;&emsp;<span class="purple">public static</span> <span class="blue">void</span> <span class="green">contact</span>() {<br>
+                            &emsp;&emsp;&emsp;&emsp;<span class="blue">Email</span> email = <span class="purple">new</span> Email(<span class="orange">“marshall-blatz@uiowa.edu”</span>);<br>
+                            &emsp;&emsp;&emsp;&emsp;<span class="blue">String[]</span> links = <span class="purple">new</span> <span class="blue">String[]</span> {<br>
+                            &emsp;&emsp;&emsp;&emsp;<span class="orange">"LinkedIn"</span>,<br>
+                            &emsp;&emsp;&emsp;&emsp;<span class="orange">"Github"</span><br>
                             &emsp;&emsp;&emsp;&emsp;}<br>
                             &emsp;&emsp;}<br>
                             }<br>
@@ -81,16 +80,20 @@
                             <input type="radio" name="radio-btn" id="radio4">
 
                             <div class="slide first">
-                                <img src="assets/art/corgi1.jpeg" alt="">
+                                <img class="slide-pic" src="assets/art/corgi1.jpeg" alt="">
+                                <p>i go to the university of iowa, go hawks!</p>
                             </div>
                             <div class="slide">
-                                <img src="assets/art/corgi2.jpeg" alt="">
+                                <img class="slide-pic" src="assets/art/corgi2.jpeg" alt="">
+                                <p>i'm currently studying computer science and engineering</p>
                             </div>
                             <div class="slide">
-                                <img src="assets/art/corgi3.jpeg" alt="">
+                                <img class="slide-pic" src="assets/art/corgi3.jpeg" alt="">
+                                <p>i'm also interested in web development and design</p>
                             </div>
                             <div class="slide">
-                                <img src="assets/art/corgi4.webp" alt="">
+                                <img class="slide-pic" src="assets/art/corgi4.webp" alt="">
+                                <p>all of the art on this site is my own!</p>
                             </div>
 
                             <div class="navigation-auto">
