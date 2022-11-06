@@ -16,19 +16,97 @@
             <img class="logo" src="assets/art/logo.png" height="50px">
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#">about me</a></li>
-                    <li><a href="#">education</a></li>
-                    <li><a href="#">projects</a></li>
+                    <li><a class="about-me-link" href="#about-me">about me</a></li>
+                    <li><a class="education-link" href="#">education</a></li>
+                    <li><a class="projects-link" href="#">projects</a></li>
                 </ul>
             </nav>
         </nav>
 
-        <div class="home">
+        <div class="home-section">
             <h1>hi, i'm<br>marshall</h1>
             <img src="" alt="">
         </div>
 
-        <div id="aboutme"></div>
+        <div id="about-me">
+            <h2 class="section-header about-me">about me</h2>
+            <div class="box">
+                <div class="about-me-box">
+                    <div class="about-me-box-content">
+                        <p>
+                            <br>
+                            package aboutMe;<br>
+                            <br>
+                            public class Marshall extends Goober {<br>
+                            &emsp;&emsp;public Marshall() {<br>
+                            &emsp;&emsp;&emsp;&emsp;String fullName = “Marshall Blatz”;<br>
+                            &emsp;&emsp;&emsp;&emsp;String homeTown = “Iowa City, IA”;<br>
+                            &emsp;&emsp;&emsp;&emsp;String school = “University of Iowa”;<br>
+                            &emsp;&emsp;&emsp;&emsp;int expGraduation = May 2023;<br>
+                            &emsp;&emsp;&emsp;&emsp;Resume resume = new Resume("pdf");<br>
+                            &emsp;&emsp;&emsp;&emsp;String[] hobbiesAndInterests = new String[] {<br>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;“doodling”,<br>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;“crosswords”,<br>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;“basketball”,<br>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;“football”,<br>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"graphic design"<br>
+                            &emsp;&emsp;&emsp;&emsp;}<br>
+                            &emsp;&emsp;}<br>
+                            &emsp;&emsp;public static void contact() {<br>
+                            &emsp;&emsp;&emsp;&emsp;Email email = new Email(“marshall-blatz@uiowa.edu”);<br>
+                            &emsp;&emsp;&emsp;&emsp;String[] links = new String[] {<br>
+                            &emsp;&emsp;&emsp;&emsp;"LinkedIn",<br>
+                            &emsp;&emsp;&emsp;&emsp;"Github",<br>
+                            &emsp;&emsp;&emsp;&emsp;"Instagram"<br>
+                            &emsp;&emsp;&emsp;&emsp;}<br>
+                            &emsp;&emsp;}<br>
+                            }<br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="fun-facts">
+                    <div class="slider">
+                        <div class="slides">
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <input type="radio" name="radio-btn" id="radio4">
+
+                            <div class="slide first">
+                                <img src="assets/art/corgi1.jpeg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/art/corgi2.jpeg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/art/corgi3.jpeg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/art/corgi4.webp" alt="">
+                            </div>
+
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                                <div class="auto-btn4"></div>
+                            </div>
+                        </div>
+
+                        <div class="navigation-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                            <label for="radio4" class="manual-btn"></label>
+                        
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
         <div id="education"></div>
 
