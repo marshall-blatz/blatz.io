@@ -11,6 +11,12 @@
     <title>Marshall's Portfolio Site</title>
 </head>
 <body>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.getElementById("navbar");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
     <div id="container">
         <nav id="navbar" class="navbar">
             <img class="logo" src="assets/art/logo.png" height="50px">
@@ -94,14 +100,13 @@
                                 <div class="auto-btn4"></div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="navigation-manual">
-                            <label for="radio1" class="manual-btn"></label>
-                            <label for="radio2" class="manual-btn"></label>
-                            <label for="radio3" class="manual-btn"></label>
-                            <label for="radio4" class="manual-btn"></label>
-                        
-                        </div>
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
                     </div>
 
                 </div>
