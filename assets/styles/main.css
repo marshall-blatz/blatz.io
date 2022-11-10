@@ -11,6 +11,7 @@
 
 html {
     background-color: var(--black);
+    scroll-behavior: smooth;
 }
 
 * {
@@ -28,7 +29,7 @@ html {
     font-style: normal;
     font-size: 2.5rem;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -134,10 +135,18 @@ li, a, button {
 /* home section */
 
 .home-section {
-    width: 80%;
+    max-width: 1090px;
     align-items: center;
     margin: 0 auto;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-img {
+    height: 50%;
+
 }
 
 h1 {
@@ -145,10 +154,6 @@ h1 {
     font-weight: 800;
     font-style: normal;
     font-size: 9rem;
-    position: absolute;
-    bottom: 5%;
-    left: 10%;
-
 }
 
 /* about me section */
@@ -308,6 +313,10 @@ h1 {
 }
 
 /* education section */
+#education {
+    
+}
+
 .education-box {
     background-color: var(--blue);
     width: 800px;
@@ -343,4 +352,47 @@ h1 {
 
 .edu-content-header {
     text-align: right;
+}
+
+/* projects section */
+.project-btn{
+    border: 2px solid var(--purple);
+    padding: 5px 10px;
+    margin: 10px 4px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+    font-family: filson-soft, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--purple);
+}
+
+.project-radios {
+    display: none;
+}
+
+.project-radio-labels {
+    text-align: center;
+}
+
+.project-gallery {
+    margin: 40px;
+}
+
+.project-cards {
+    max-width: 1090px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin: auto;
+}
+
+.project-card {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: var(--purple);
+    float: left;
 }
