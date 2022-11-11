@@ -188,6 +188,13 @@ h1 {
     overflow-x: scroll;
 }
 
+a.orange {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    text-decoration: underline;
+
+}
+
 .about-me-box-content p {
     font-family: 'Source Code Pro', monospace;
 
@@ -328,7 +335,7 @@ h1 {
 }
 
 .education-content {
-    width: 600px;
+    width: fit-content;
     border-radius: 20px;
     margin: auto;
 }
@@ -339,6 +346,15 @@ h1 {
     font-family: filson-soft, sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+
+.coursework-text{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.university-text{
+    font-size: 1.8rem;
+    font-weight: 700;
 }
 
 .education-content p span{
@@ -404,6 +420,15 @@ h1 {
     .education-box {
         width: 100%;
         border-radius: 0%;
+    }
+    .coursework-text{
+        font-size: 0.8rem;
+    }
+    .university-text{
+        font-size: 1rem;
+    }
+    .education-content p {
+        font-size: 0.7rem;
     }
   }
 
