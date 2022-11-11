@@ -101,6 +101,10 @@ li, a, button {
     background-color: transparent;
 }
 
+.mini-link {
+    display: none;
+}
+
 .nav-links li {
     display: inline-block;
     padding: 0 20px;
@@ -447,5 +451,19 @@ a.orange {
         margin: auto;
         display: block;
         
+    }
+}
+
+@media screen and (max-width: 600px){
+    .mini-link{
+        display: block;
+        
+    }
+    .nav-links li {
+        padding: 0 10px;
+    }
+
+    .link{
+        display: none;
     }
 }
