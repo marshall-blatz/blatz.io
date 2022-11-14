@@ -413,10 +413,20 @@ a.orange {
     width: 250px;
     height: 250px;
     margin: auto;
-    box-sizing: border-box;
     border-radius: 20px;
     background-color: var(--purple);
     margin: 10px;
+    text-align: center;
+}
+
+.project-link {
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    left: 5%;
 }
 
 /* Media Queries */
