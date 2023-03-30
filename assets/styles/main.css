@@ -429,6 +429,10 @@ a.orange {
     left: 5%;
 }
 
+.project-text {
+    color:var(--black)
+}
+
 /* Media Queries */
 @media screen and (max-width: 850px) {
     .education-box {
