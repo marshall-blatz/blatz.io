@@ -6,7 +6,6 @@ import Work from "./pages/Work";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 
-
 export default function App() {
   return (
     <>
