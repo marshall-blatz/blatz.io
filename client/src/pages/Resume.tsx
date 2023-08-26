@@ -9,7 +9,8 @@ export default function Resume({}: Props) {
         <h1>/resume</h1>
         <p>Here is my resume as of August 2023.</p>
       </div>
-      <iframe src="/assets/resume.pdf" style={{ width:"800px", height:"1100px"}}/>
+      <iframe className="w-[800px] h-[1100px] hidden resume:block" src="/assets/resume.pdf" />
+      <a className="text-green underline block resume:hidden" href="/assets/resume.pdf" target="_blank">Resume</a>
     </Layout>
   )
 }

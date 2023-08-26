@@ -12,7 +12,14 @@ export default {
       'green': '#13CE66',
       'orange': '#F63F0A',
     },
-    extend: {},
+    screens: {
+      'md': '800px',
+    },
+    extend: {
+      screens: {
+        'resume': '960px',
+      },
+    },
   },
   plugins: [],
   darkMode: "class"

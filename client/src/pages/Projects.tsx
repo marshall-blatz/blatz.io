@@ -24,7 +24,7 @@ export default function Projects({}: Props) {
       </div>
 
       <div>
-        <LinkHeading label="Curate" url="https://curate.vercel.app/" color="text-green"/>
+        <LinkHeading label="Curate" url="https://github.com/marshall-blatz/Curate" color="text-green"/>
         <p>
           This is an ongoing passion project of mine as a music-appreciater. Curate is meant to be a place for curators 
           to show off their playlists as well as an easy-to-use tool for playlist sharing between friends who use 

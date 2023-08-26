@@ -7,7 +7,7 @@ type Props = {
 export default function Layout({ children }: Props) {
   return (
     <div className="w-full flex flex-col justify-center text-black dark:text-white">
-        <div className="w-fit px-20 space-y-8">
+        <div className="w-fit px-5 md:px-20 space-y-8">
             {children}
         </div>
         <Footer/>
