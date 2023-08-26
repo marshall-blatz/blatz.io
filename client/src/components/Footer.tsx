@@ -1,4 +1,7 @@
+import 'remixicon/fonts/remixicon.css'
+
 import SocialLinks from "./SocialLinks"
+import ThemeToggle from "./ThemeToggle"
 
 type Props = {}
 
@@ -10,14 +13,14 @@ export default function Footer({}: Props) {
     }
 
     return (
-        <div className="flex flex-col px-20 my-10">
+        <div className="flex flex-col px-20 mt-20 mb-10">
             <hr/>
             <div className="flex flex-row justify-between">
-                <div className="flex flex-col">
-                    <p>© Marshall Blatz {renderCurrentYear()}</p>
-                    <p>(ง •̀_•́)ง push me for dark mode</p>
+                <div className="flex flex-row space-x-10">
+                    <p><i className="ri-copyright-line"></i> Marshall Blatz {renderCurrentYear()}</p>
+                    <SocialLinks size="18px" color="text-black dark:text-white"/>
                 </div>
-                <SocialLinks size="16px" color="text-black"/>
+                <ThemeToggle />
             </div>
         </div>
     )

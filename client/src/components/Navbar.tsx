@@ -5,7 +5,7 @@ type Props = {}
 export default function Navbar({}: Props) {
 
   return (
-    <div className="flex justify-between items-center px-20 py-10">
+    <div className="flex justify-between items-center px-20 py-10 text-black dark:text-white">
         <NavbarLink to="/" label="blatz.io"/>
         <div className="space-x-8">
           <NavbarLink to="/work" label="work"/>
