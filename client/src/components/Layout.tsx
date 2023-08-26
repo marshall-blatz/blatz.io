@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 
 type Props = {
     children: string | JSX.Element | JSX.Element[];
@@ -5,10 +6,11 @@ type Props = {
 
 export default function Layout({ children }: Props) {
   return (
-    <div className="w-full flex justify-center">
-        <div className="w-fit px-10">
+    <div className="w-full flex flex-col justify-center">
+        <div className="w-fit px-20 space-y-8">
             {children}
         </div>
+        <Footer/>
     </div>
   )
 }

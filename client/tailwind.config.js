@@ -6,10 +6,11 @@ export default {
   ],
   theme: {
     colors: {
-      'green': '#13CE66',
       'black': '#1E1E1E',
       'gray': '#27272C',
       'white': '#FFFFFF',
+      'green': '#13CE66',
+      'orange': '#F63F0A',
     },
     extend: {},
   },

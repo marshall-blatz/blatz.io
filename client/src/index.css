@@ -4,19 +4,20 @@
 
 :root {
   /* variables */
-  --bg-white: #F7F8F9;
-  --bg-black: #131314;
+  --white: #F7F8F9;
+  --black: #131314;
+  --green: #13CE66;
 
   font-family: IBM Plex Mono, monospace;
   font-weight: 400;
 }
 
 html {
-  background-color: var(--bg-white);
+  background-color: var(--white);
 }
 
 html.dark {
-  background-color: var(--bg-dark);
+  background-color: var(--black);
 }
 
 h1 {
