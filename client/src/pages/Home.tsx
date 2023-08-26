@@ -10,7 +10,7 @@ export default function Home({}: Props) {
     <Layout>
       <div>
         <div>
-          <h1 className="mb-4">Hi, I'm Marshall!</h1>
+          <h1 className="mb-4">Hi, I'm Marshall</h1>
           <p>
               I'm a software developer passionate about<br/>
               using technology to solve complex problems<br/>
