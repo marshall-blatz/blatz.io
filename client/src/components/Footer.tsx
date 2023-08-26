@@ -16,7 +16,7 @@ export default function Footer({}: Props) {
         <div className="flex flex-col px-20 mt-20 mb-10">
             <hr/>
             <div className="flex flex-row justify-between">
-                <div className="flex flex-row space-x-10">
+                <div className="flex flex-row items-center space-x-2">
                     <p><i className="ri-copyright-line"></i> Marshall Blatz {renderCurrentYear()}</p>
                     <SocialLinks size="18px" color="text-black dark:text-white"/>
                 </div>

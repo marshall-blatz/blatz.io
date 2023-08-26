@@ -32,12 +32,12 @@ export default function Work({}: Props) {
         <p>
           From November 2021 to the present day, I have worked part-time and now full-time as a software developer 
           for the Iowa Reading Research Center. My main responsibility here is building and maintaining custom applications 
-          for our researchers. They use these applicaitons to collect and organize test data of over 12,000 students and 
+          for our researchers. They use these applicaitons to collect and organize test data from over 12,000 students and 
           faculty across the state of Iowa. I also work on internal reporting apps, third-party software support, and 
           various administrative tasks like interviewing other software developers. 
           <br/><br/>
-          What I love about this job most is that it has given me immense exposure to many key web development technologies. 
-          All of our legacy applications were developed/supported with vanilla JavaScript, PHP, MySQL, and Apache which gave 
+          What I love most about this job is that it gave me great exposure to many key web development technologies. 
+          All of our legacy applications were built with vanilla JavaScript, PHP, MySQL, and Apache which gave 
           me good experience with core, time-tested web technologies. In the last year, we have moved on to using more modern 
           tools including TypeScript, React, Express, Prisma, Nginx, and GCP. Implementing these tools has resulted in a 
           great increase in productivity, efficiency, and has allowed us to create bespoke solutions that wouldn't be an option 

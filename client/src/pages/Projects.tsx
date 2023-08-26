@@ -9,7 +9,7 @@ export default function Projects({}: Props) {
       <div>
         <h1>/projects</h1>
         <p>
-          Welcome to my projects page. Here you can find all of my past and current software projects. 
+          Welcome to my projects page. Here you can find some of my past and current software projects. 
           At some point in time, my non-software projects might end up here too.
         </p>
       </div>
