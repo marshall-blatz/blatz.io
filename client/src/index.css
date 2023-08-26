@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* variables */
+  --white: #F7F8F9;
+  --black: #131314;
+  --green: #13CE66;
+
+  font-family: IBM Plex Mono, monospace;
+  font-weight: 400;
+}
+
+html {
+  background-color: var(--white);
+}
+
+html.dark {
+  background-color: var(--black);
+}
+
+h1 {
+  font-size: 3.375rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h3, h4, h5, h6 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  font-size: 1rem;
+}
