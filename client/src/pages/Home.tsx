@@ -16,8 +16,8 @@ export default function Home({}: Props) {
               <br/><br/>
               I've recently graduate from the University of Iowa where I studied computer science and engineering. 
               <br/><br/>
-              I'm currently working for <a target="blank_" className="text-green underline" href="https://www.x.com/iareading">@iareading</a> 
-              and working on these <Link to="/projects" className="text-green underline">projects</Link> in my free time. 
+              I'm currently working for <a target="blank_" className="text-green underline" href="https://www.x.com/iareading">@iareading</a> and 
+              working on these <Link to="/projects" className="text-green underline">projects</Link> in my free time. 
               <br/><br/>
               Welcome to my corner of the internet!<br/>
               Here are the other corners you can connect with me at:<br/>
