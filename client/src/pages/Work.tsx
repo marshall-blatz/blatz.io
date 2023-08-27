@@ -32,7 +32,7 @@ export default function Work({}: Props) {
       </div>
 
       <div>
-        <LinkHeading label="Iowa Reading Research Center" url="https://irrc.education.uiowa.edu/" color="text-green"/>
+        <LinkHeading label="IRRC" url="https://irrc.education.uiowa.edu/" color="text-green"/>
         <p>
           From November 2021 to the present day, I have worked part-time and now full-time as a software developer 
           for the Iowa Reading Research Center. My main responsibility here is building and maintaining custom applications 
