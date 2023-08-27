@@ -19,6 +19,7 @@ export default function Work({}: Props) {
           to the world of software consultancy. At the beginning of the summer, I was tasked with 
           learning a proprietary language used for creating Microsoft Dynamics 365 Plugins called AL. 
           This was a unique challenge and something I would never be exposed to, if not for this position. 
+          <br/><br/>
           After getting comfortable with the technology, they integrated me into the team's daily work.
           I participated in stand-ups and code reviews, helped with other staff members client work, 
           and collaborated with interns on internal projects. By the end of my internship, I had successfully  
