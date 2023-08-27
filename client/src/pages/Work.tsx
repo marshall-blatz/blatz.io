@@ -7,7 +7,10 @@ export default function Work({}: Props) {
   return (
     <Layout>
       <div>
-        <h1>/work</h1>
+        {/* title for desktop */}
+        <h1 className="mb-4 hidden md:block">/work</h1>
+        {/* title for mobile */}
+        <h2 className="mb-4 block md:hidden">/work</h2>
         <p>Here are some brief summaries of the professional roles that I have held.</p>
       </div>
 
