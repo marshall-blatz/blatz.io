@@ -1,3 +1,4 @@
+import Headline from "../components/Headline"
 import Layout from "../components/Layout"
 import LinkHeading from "../components/LinkHeading"
 
@@ -7,10 +8,7 @@ export default function Projects({}: Props) {
   return (
     <Layout>
       <div>
-          {/* title for desktop */}
-          <h1 className="mb-4 hidden md:block">/projects</h1>
-          {/* title for mobile */}
-          <h2 className="mb-4 block md:hidden">/projects</h2>
+        <Headline content="/projects"/>
         <p>
           Welcome to my projects page. Here you can find some of my past and current software projects. 
           At some point in time, my non-software projects might end up here too.

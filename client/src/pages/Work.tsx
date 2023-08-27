@@ -1,3 +1,4 @@
+import Headline from "../components/Headline"
 import Layout from "../components/Layout"
 import LinkHeading from "../components/LinkHeading"
 
@@ -7,10 +8,7 @@ export default function Work({}: Props) {
   return (
     <Layout>
       <div>
-        {/* title for desktop */}
-        <h1 className="mb-4 hidden md:block">/work</h1>
-        {/* title for mobile */}
-        <h2 className="mb-4 block md:hidden">/work</h2>
+        <Headline content="/work"/>
         <p>Here are some brief summaries of the professional roles that I have held.</p>
       </div>
 

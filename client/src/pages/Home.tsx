@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 
 import Layout from "../components/Layout"
 import SocialLinks from "../components/SocialLinks"
+import Headline from "../components/Headline"
 
 type Props = {}
 
@@ -10,10 +11,7 @@ export default function Home({}: Props) {
     <Layout>
       <div>
         <div className="max-w-[550px]">
-          {/* title for desktop */}
-          <h1 className="mb-4 hidden md:block">Hi, I'm Marshall</h1>
-          {/* title for mobile */}
-          <h2 className="mb-4 block md:hidden">Hi, I'm Marshall</h2>
+          <Headline content="Hi, I'm Marshall"/>
           <p>
               I'm a software developer passionate about using technology to solve complex problems while creating friendly user interfaces.
               <br/><br/>
