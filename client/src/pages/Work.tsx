@@ -1,12 +1,11 @@
 import Headline from "../components/Headline";
-import Layout from "../components/Layout";
 import LinkHeading from "../components/LinkHeading";
 
 type Props = {};
 
 export default function Work({}: Props) {
     return (
-        <Layout>
+        <>
             <div>
                 <Headline content="/work" />
                 <p>
@@ -70,6 +69,6 @@ export default function Work({}: Props) {
                     efficiency, and the flexibility to create bespoke solutions.
                 </p>
             </div>
-        </Layout>
+        </>
     );
 }
