@@ -22,24 +22,21 @@ export default function Work({}: Props) {
                     color="text-green"
                 />
                 <p>
-                    Over the summer of 2022, I was an application development
-                    intern at RSM, working out of both the Cedar Rapids and Des
-                    Moines offices. This role offered me great exposure to the
-                    world of software consultancy. At the beginning of the
-                    summer, I was tasked with learning a proprietary language
-                    used for creating Microsoft Dynamics 365 Plugins called AL.
-                    This was a unique challenge and something I would never be
-                    exposed to, if not for this position.
+                    My first exposure to software consulting began in the summer
+                    of 2022, when I worked as an application development intern
+                    for RSM (in both Cedar Rapids and Des Moines, IA). I was
+                    tasked early on with learning a proprietary language called
+                    AL, used to create Microsoft Dynamics 365 extensions.
                     <br />
                     <br />
-                    After getting comfortable with the technology, they
-                    integrated me into the team's daily work. I participated in
-                    stand-ups and code reviews, helped with other staff members
-                    client work, and collaborated with interns on internal
-                    projects. By the end of my internship, I had successfully
-                    handled two of my own client projects. I will always be
-                    grateful to RSM for the initial exposure they gave me to the
-                    software industry.
+                    Once I became familiar with this technology, I was quickly
+                    integrated into my team’s daily work. I participated in both
+                    stand-ups and code reviews; assisted with my team members’
+                    client work; and collaborated with other interns on several
+                    internal initiatives. By the end of my internship, I
+                    successfully headed up two of my own client projects. I will
+                    always be grateful to RSM for providing me with this
+                    multifaceted software industry experience.
                 </p>
             </div>
 
@@ -50,29 +47,27 @@ export default function Work({}: Props) {
                     color="text-green"
                 />
                 <p>
-                    From November 2021 to the present day, I have worked
-                    part-time and now full-time as a software developer for the
-                    Iowa Reading Research Center. My main responsibility here is
-                    building and maintaining custom applications for our
-                    researchers. They use these applicatons to collect and
-                    organize test data from over 12,000 students and faculty
-                    across the state of Iowa. I also work on internal reporting
-                    apps, third-party software support, and various
-                    administrative tasks like interviewing other software
-                    developers.
+                    In November 2022, I began working as a part-time software
+                    developer for the Iowa Reading Research Center (shifting to
+                    full-time after I graduated in May 2023). My primary
+                    responsibility in this role is to build and maintain custom
+                    applications for researchers, who collect and organize test
+                    data from over 12,000 students and faculty across the state
+                    of Iowa. I also work on internal reporting applications,
+                    third-party software support, and various administrative
+                    tasks as needed.
                     <br />
                     <br />
-                    What I love most about this job is that it gave me great
-                    exposure to many key web development technologies. All of
-                    our legacy applications were built with vanilla JavaScript,
-                    PHP, MySQL, and Apache which gave me good experience with
-                    core, time-tested web technologies. In the last year, we
-                    have moved on to using more modern tools including
-                    TypeScript, React, Express, Prisma, Nginx, and GCP.
-                    Implementing these tools has resulted in a great increase in
-                    productivity, efficiency, and has allowed us to create
-                    bespoke solutions that wouldn't be an option with our old
-                    stack.
+                    What I love most about this job is that it consistently
+                    provides me with such great exposure to many key web
+                    development technologies. All of our legacy applications
+                    were built with vanilla JavaScript, PHP, MySQL, and Apache,
+                    allowing me to work closely with these essential,
+                    time-tested web technologies. In the past year, we have
+                    begun using more modern tools, including TypeScript, React,
+                    Express, Prisma, Nginx, and GCP. Implementing these tools
+                    has resulted in a great increase in productivity,
+                    efficiency, and the flexibility to create bespoke solutions.
                 </p>
             </div>
         </Layout>
